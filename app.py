@@ -2,10 +2,10 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 import openai
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-# .envファイルから環境変数を読み込む
-load_dotenv()
+# # .envファイルから環境変数を読み込む
+# load_dotenv()
 
 app = Flask(__name__)
 CORS(
